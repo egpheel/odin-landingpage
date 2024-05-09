@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .header,
 .hero {
   background-color: #1f2937;
@@ -14,6 +19,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 50px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -23,7 +29,7 @@ body {
 .header ul {
   list-style-type: none;
   display: flex;
-  gap: 16px;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
