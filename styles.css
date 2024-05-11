@@ -108,19 +108,24 @@ button:active {
 
 .second {
   display: flex;
-  height: 400px;
+  /* height: 400px; */
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
+  padding: 40px 0;
+  gap: 40px;
 }
 
 .second h2 {
-  font-size: 32px;
-  padding: 20px 0;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0;
+  color: #1f2937;
 }
 
 .second p {
   text-align: center;
+  margin: 0;
 }
 
 .second .cards {
@@ -136,7 +141,17 @@ button:active {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: 150px;
+  gap: 10px;
 }
 
 /* end of second section */
+/* third section */
+
+.third {
+  background-color: #e5e7eb;
+}
+
+/* end of third section
