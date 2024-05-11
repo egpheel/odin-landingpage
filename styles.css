@@ -26,6 +26,7 @@ button:active {
   flex-direction: column;
 }
 
+/* header */
 .header,
 .hero {
   background-color: #1f2937;
@@ -57,9 +58,12 @@ button:active {
 .header a {
   color: currentColor;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: #e5e7eb;
 }
+
+/* end of header section */
+/* hero section */
 
 .hero h2 {
   color: #f9faf8;
@@ -98,3 +102,41 @@ button:active {
   border-radius: 10px;
   object-fit: cover;
 }
+
+/* end of hero section */
+/* second section */
+
+.second {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.second h2 {
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.second p {
+  text-align: center;
+}
+
+.second .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.second .cards img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.card {
+  width: 150px;
+}
+
+/* end of second section */
