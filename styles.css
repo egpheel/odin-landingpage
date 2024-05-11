@@ -165,7 +165,7 @@ button:active {
 .third .quote {
   font-size: 36px;
   font-style: italic;
-  font-weight: light;
+  font-weight: 100;
   color: #1f2937;
 }
 
@@ -182,10 +182,31 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px 0;
 }
 
 .container {
   width: 50%;
   display: flex;
   justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 40px 120px;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.container .title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container .subtext {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.fourth button {
+  border-color: #e5e7eb;
+  border-width: 2px;
 }
