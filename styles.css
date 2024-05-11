@@ -175,3 +175,16 @@ button:active {
 }
 
 /* end of third section
+/* fourth section */
+
+.fourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
